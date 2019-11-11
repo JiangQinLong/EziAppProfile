@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><title>
+	Bo Shi Li | Sales Representative | JDL Realty Inc., Borkerage
+</title>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta id="MetaDescription" name="DESCRIPTION" content="This site provides real estate listings, real estate homes for sale, tips on buying a home, tips on selling a home, mortgage calculator, real estate information, listings for sale, properties for sale, mls real estate, home evaluation services, real estate evaluations and home improvement tips" /><meta id="MetaKeywords" name="KEYWORDS" content="Real Estate Agent, Top Agent, Toronto, Markham, Richmond Hill, Chinese Real Estate Agent, Toronto Real Estate Agent, Markham Real Estate AgentMississauga House,Mississauga Home, Mississauga ,Condos,Cooksville,John fraser,meadowvale,streetville,woodlands,Real Estate, Brampton, Mississauga, gta, commercial, investment, properties, property, condo, Toronto Realtor, Real Estate, Markham listings, Downtown New condo,Toronto Real Estate, Markham real Estate, Richmond Hill Real Estate, " /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" />
+
+<!--Bootstrap Links imported by Jennifer-->
+<link href="/ts/univ/bootstrap.min.css" rel="stylesheet">
+<link href="/ts/univ/bootstrap-theme.min.css" rel="stylesheet">
+<link href="all.min.css" rel="stylesheet">
+
+<!--Bootstrap Links imported by allan-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet">
+
+<!-- font awesone 5 icons imported -->
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <div id="headerBar">
+        <h> Profile </h>
+    </div>
+
+</head>
+
+<body class="min-vh-100">	 
+  <!-- Agent Photo and Name Section -->
+    <section id="workZoneProfilePhoto">
+    <div class="divagent" style="display:block;width:100%;height:auto;">
+
+        <div class='divphoto'>
+            <img id="agentPhoto" src='PictureElement/AgentProfile.png' width='200' height='200'/>
+        </div>
+
+        <div class="divinfo">
+         <span class='name'>BoShi Li</span>
+         <div></div>
+        <span class='title'>Sales Representative</span>
+        </div>
+    </div>
+    </section>
+
+<!-- Contact Nav Bar Section --> 
+
+    <nav id="workZoneProfileNav"> 
+        
+        <ul>
+            <li>
+              <a href="tel:514-998-1835" class="fas" style="text-align: center;font-size: 50px;">&#xf3cd; <br><span id="boxText" class='directphone'>Direct</span>
+              </a>
+            </li>
+
+            <li>
+             <a href="tel:905-731-2266" class="fas" style="text-align: center;font-size: 50px;">&#xf879;  <br><span id="boxText" class='busphone'>Office</span> 
+             </a>
+            </li>
+
+            <li>
+                <a href="mailto:boshi.li@hotmail.com" class="fas" style="text-align: center;font-size: 50px;">&#xf0e0; <br><span id="boxText" class='email'>Mail</span></a>
+            </li>
+
+        </ul>
+   
+    </nav>
+
+
+<section id="workZoneProfileMediaIcon">
+    <img id="followIcon"src="PictureElement/Follow.png">
+
+      <div id="socialMedia">
+        <a href="#" class="fab" style="color: #2c3f77">&#xf082;</a> 
+        <a href="#" class="fab" style="color: #00a6da">&#xf099;</a>  
+        <a href="#" class="fab" style="color: #02af02">&#xf1d7;</a>  
+
+        <button class="collapsible">About Me <i class="down"></i> </button>
+        <div class="content" id="introduction">
+          <p>I am an introduction sentence. I am an introduction sentence. I am an introduction sentence. I am an introduction sentence.
+                I am an introduction sentence.
+                I am an introduction sentence.
+                I am an introduction sentence.
+                I am an introduction sentence. </p>
+
+            <p style="color:#02af02; text-align: center;"> Scan or Press then Install My App! </p>
+            <img id="qrCode" src="PictureElement/qrCode.jpg">
+        </div>      
+
+       </div>
+
+        
+    
+</section>
+
+<div id="greyBar"></div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block"){
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    } 
+  });
+}
+</script>
+
+</body>	
+
+<!--Company Logo Section-->
+<footer id="workZoneProfileFooter">
+
+    <section id="footer">
+        <div class="officeLogo" style="text-align: center;padding-top: 10px;">
+            <img src="PictureElement/officeLogo.jpg">
+        </div>
+
+        <div class="officeInfo" style="text-align: center;">
+            <li class="officeName"> JDL Realty Inc., Brokerage</li>
+            <li class="officeAddress">95 Mural St. Suite 105 <br> L4B 3G2,Canada </li>
+        </div>
+
+    </section>
+
+</footer>
+
+
+</html>
